@@ -12,15 +12,16 @@ First all dependencies are aquired, node packages installed and database created
 ## Application:
 
 * customerView.js is what runs the app. We start with requiring all packages and initializing database with credentials. The check for database connection is performed and first functionality of showing the user a table of all available products is presented by calling function showAll. See screenshot below. 
-<img src="/screenshots/productTable.png" width="500" >
-![](/screenshots/productTable.png)
+![](screenshots/product-table.png)
 
 
 * showAll function executes purchaseProduct function, which in turn allows user to chose product ID and enter quantity of desired product. If the desired quantity is not bigger than available stock, order is successful and user is charged the price shown. See screenshot below.
-
+![](screenshots/purchaseAndCheckout.PNG)
 
 * Upon successful purchase, the stock amount is recalculated and user is given an option to purchase another product of exit the app. If user chooses to purchase another product, updated table of all products is first shown to allow the user to see updated stock numbers.
 See screenshots below.
-
+![](screenshots/stockUpdt1.PNG)
+![](screenshots/stockUpdt2.PNG)
 
 * And finally, if user's input with product ID was invalid or quantity of desired  porduct exceeds stock amount errors are caught and user is prompted to  re-enter information. See screenshots below. 
+![](screenshots/errorHandling.PNG)
