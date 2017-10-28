@@ -12,7 +12,8 @@ First all dependencies are aquired, node packages installed and database created
 ## Application:
 
 * customerView.js is what runs the app. We start with requiring all packages and initializing database with credentials. The check for database connection is performed and first functionality of showing the user a table of all available products is presented by calling function showAll. See screenshot below. 
-<img src="screenshots/productTable.png" width="500" >
+<img src="/screenshots/productTable.png" width="500" >
+![](/screenshots/productTable.png)
 
 
 * showAll function executes purchaseProduct function, which in turn allows user to chose product ID and enter quantity of desired product. If the desired quantity is not bigger than available stock, order is successful and user is charged the price shown. See screenshot below.
