@@ -1,15 +1,15 @@
-#**Bamazon**
+#**Bamazon**#
 
-##Overview:
+##Overview:##
 
 In this activity, we created an Amazon-like storefront with the MySQL and Node. The app takes in orders from customers and depletes stock from the store's inventory.
 
-##Dependencies and Prerequisits:
+##Dependencies and Prerequisits:##
 
 First all dependencies are aquired, node packages installed and database created in MySQL workbench. We are using here Inquirer and mysql packages as well as attaching schema and seed file as bamazonSeeds.sql file. Package JSON and .gitignore and screenshots for readme.md are included as well.  
 
 
-##Application:
+##Application:##
 
 customerView.js is what runs the app. We start with requiring all packages and initializing database with credentials. The check for database connection is performed and first functionality of showing the user a table of all available products is presented by calling function showAll. See screenshot below. 
 
